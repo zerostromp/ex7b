@@ -15,3 +15,20 @@ function checkCandiNo() {
     return true;
   }
 }
+
+function validateForm(){
+	if(!checkSID()){
+	  alert("Invalid value for Student ID!");
+	  document.getElementById("sid").focus();
+	  return false;
+	}else{
+		if(!checkCandiNo()){
+		  alert("Invalid value for Candidate No!");
+		  document.getElementById("candi").focus();
+		  return false;
+		}else{
+			alert("Your input data passes validation!");
+			return true;
+		}
+	}
+}
