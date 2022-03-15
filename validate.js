@@ -23,11 +23,11 @@ function validateForm(){
 	  return false;
 	}else{
 		if(!checkCandiNo()){
-		  alert("Invalid value for Candidate No!");
+		  alert("Invalid value for Candidate No!!");
 		  document.getElementById("candi").focus();
 		  return false;
 		}else{
-			alert("Your input data passes validation!");
+			alert("Your input data passes validation!!");
 			return true;
 		}
 	}
