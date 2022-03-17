@@ -1,8 +1,12 @@
-function checkSID() {
+function checkSID() {	
   let sid = (document.getElementById("sid").value).trim();
-  if (sid.length == 10) {
+  var i = ("0123456789");
+  for (sid == i)
+  if (sid.length == 10)	   
     return true;
-  } else {
+  } 
+  for(sid != i)
+  else  (){
     return false;
   }
 }
